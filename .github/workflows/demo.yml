@@ -8,10 +8,11 @@ jobs:
     name: demo job run 
     runs-on: ubuntu-latest
     steps:
-      - name: run py code
+      - name: run py, sh code
         run: |
           python --version 
           echo "Hello World!"
+          ls
       - uses: actions/checkout@v2
       - name: run py script
         run: |
