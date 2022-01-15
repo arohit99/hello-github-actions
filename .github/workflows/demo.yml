@@ -1,0 +1,13 @@
+name: demo actions
+on: 
+  push:
+    branches: git_actions
+
+jobs:
+  build:
+    name: demo job run 
+    runs-on: ubuntu-latest
+    steps:
+      - name: run py code
+      - run: |
+          python --version 
