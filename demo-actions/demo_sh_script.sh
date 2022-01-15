@@ -1,0 +1,1 @@
+echo "Hello world from demo_sh_script"
