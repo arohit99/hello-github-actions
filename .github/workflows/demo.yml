@@ -18,7 +18,7 @@ jobs:
           python ./demo-actions/demo_py_script.py
       - name: run sh script
         run: |
-          chmod +x ./demo-actions/demo_sh_script.sh
+          
           ./demo-actions/demo_sh_script.sh
 
 
