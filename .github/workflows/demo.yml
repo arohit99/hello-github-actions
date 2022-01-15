@@ -11,4 +11,8 @@ jobs:
       - name: run py code
         run: |
           python --version 
-          echo "Hello World!" 
+          echo "Hello World!"
+      - uses: actions/checkout@v2
+      - name: run py script
+        run: |
+          python ./demo-actions/demo_py_script.py
