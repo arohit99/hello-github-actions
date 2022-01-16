@@ -8,11 +8,10 @@ jobs:
     name: demo job run 
     runs-on: ubuntu-latest
     steps:
-      - name: run py, sh code
+      - name: run sh commands
         run: |
           python --version 
           echo "Hello World!"
-          ls
       - uses: actions/checkout@v2
       - name: run py script
         run: |
@@ -21,6 +20,8 @@ jobs:
         run: |
           chmod +x ./demo-actions/demo_sh_script.sh
           ./demo-actions/demo_sh_script.sh
+      - name: cml demo
+        
 
 
 
